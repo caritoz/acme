@@ -1,21 +1,37 @@
-## Laravel PHP Framework
+### About
 
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/version.png)](https://packagist.org/packages/laravel/framework) [![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.png)](https://packagist.org/packages/laravel/framework) [![Build Status](https://travis-ci.org/laravel/framework.png)](https://travis-ci.org/laravel/framework) [![License](https://poser.pugx.org/laravel/framework/license.png)](https://packagist.org/packages/laravel/framework) 
+This small backend is created for it manage the content in a website about architecture sustainable.
+* Web Development for Sustainable Architecture Studio.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, and caching.
+## Prerequisites
+  * PHP 5.5 or higher;
+  * MySql PHP extension enabled;
+  * Fileinfo Extension;
+  * and the [usual Laravel application requirements][1].
 
-Laravel aims to make the development process a pleasing one for the developer without sacrificing application functionality. Happy developers make the best code. To this end, we've attempted to combine the very best of what we have seen in other web frameworks, including frameworks implemented in other languages, such as Ruby on Rails, ASP.NET MVC, and Sinatra.
+## Supported Image Libraries
 
-Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+- GD Library (>=2.0)
+- Imagick PHP extension (>=6.5.7)
 
-## Official Documentation
+## Installation
+
+Execute this command to install the project:
+
+```bash
+$ composer update
+```
+
+## Official Documentation about API
 
 Documentation for the entire framework can be found on the [Laravel website](http://laravel.com/docs).
 
-### Contributing To Laravel
+## Authors
 
-**All issues and pull requests should be filed on the [laravel/framework](http://github.com/laravel/framework) repository.**
+- [Carola Gordillo](https://github.com/caritoz) - Original author and architect.
 
-### License
+## Licenses
+
+Licensed under the [MIT License](http://opensource.org/licenses/MIT).
 
 The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
