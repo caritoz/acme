@@ -1,6 +1,6 @@
 <?php
 
-return array(
+return [
 
     /*
     |--------------------------------------------------------------------------
@@ -15,7 +15,7 @@ return array(
     |
     */
 
-    'driver' => 'file',
+    'driver' => getenv('CACHE_DRIVER'),
 
     /*
     |--------------------------------------------------------------------------
@@ -67,11 +67,7 @@ return array(
     |
     */
 
-    'memcached' => array(
-
-        array('host' => '127.0.0.1', 'port' => 11211, 'weight' => 100),
-
-    ),
+    'memcached' => isset($_ENV['CACHE_SERVERS']) ? unserialize($_ENV['CACHE_SERVERS']) : [],
 
     /*
     |--------------------------------------------------------------------------
@@ -84,6 +80,6 @@ return array(
     |
     */
 
-    'prefix' => 'laravel',
+    'prefix' => 'acme_',
 
-);
+];

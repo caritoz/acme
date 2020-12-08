@@ -64,14 +64,14 @@ return array(
 		),
 
 		'pgsql' => array(
-			'driver'   => 'pgsql',
-            'host'     => 'db',
-            'database' => 'acme',
-			'username' => 'postgres',
-			'password' => 'password',
-			'charset'  => 'utf8',
-			'prefix'   => '',
-			'schema'   => 'public',
+			'driver'    => 'pgsql',
+            'host'      => '127.0.0.1',
+            'database'  => 'database',
+            'username'  => 'root',
+            'password'  => 'root',
+			'charset'   => 'utf8',
+			'prefix'    => '',
+			'schema'    => 'public',
 		),
 
 		'sqlsrv' => array(

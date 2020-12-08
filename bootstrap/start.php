@@ -24,11 +24,14 @@ $app = new Illuminate\Foundation\Application;
 |
 */
 
-$env = $app->detectEnvironment(array(
-
-	'local' => array('your-machine-name'),
-
-));
+//$env = $app->detectEnvironment(array(
+//
+//	'local' => array('your-machine-name'),
+//
+//));
+$env = $app->detectEnvironment(function(){
+    return array_get($_SERVER, 'APP_ENV', 'local');
+});
 
 /*
 |--------------------------------------------------------------------------
