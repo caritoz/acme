@@ -5,7 +5,7 @@
 	"license": "MIT",
 	"require": {
 		"laravel/framework": "4.2.*",
-        "nesbot/Carbon": "*",
+        "nesbot/carbon": "*",
         "cartalyst/sentry": "2.1.*",
         "intervention/image": "2.*",
         "intervention/imagecache": "2.*",

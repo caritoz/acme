@@ -26,7 +26,7 @@ return array(
 	|
 	*/
 
-	'default' => 'mysql',
+	'default' => 'pgsql',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -55,7 +55,7 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => '127.0.0.1',
-			'database'  => 'arquitectura_db',
+			'database'  => 'database',
 			'username'  => 'root',
 			'password'  => 'root',
 			'charset'   => 'utf8',
@@ -65,10 +65,10 @@ return array(
 
 		'pgsql' => array(
 			'driver'   => 'pgsql',
-			'host'     => 'localhost',
-			'database' => 'database',
-			'username' => 'root',
-			'password' => '',
+            'host'     => 'db',
+            'database' => 'acme',
+			'username' => 'postgres',
+			'password' => 'password',
 			'charset'  => 'utf8',
 			'prefix'   => '',
 			'schema'   => 'public',
