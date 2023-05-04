@@ -26,6 +26,11 @@ $ composer update
 
 Documentation for the entire framework can be found on the [Laravel website](http://laravel.com/docs).
 
+## Contributions
+Contributions are welcome! Please create a pull request with your changes.
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/carolagordillo)
+
 ## Authors
 
 - [Carola Gordillo](https://github.com/caritoz) - Original author and architect.
